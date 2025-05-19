@@ -11,7 +11,7 @@ public class Animal {
 	int age;
 
 	public void jump() {
-		System.out.println("Animal jump");
+		System.out.println("Animal jumped");
 	}
 
 	public void eat() {
