@@ -25,26 +25,25 @@ public class Animal {
 	public static void main(String[] args) {
 		Animal ani = new Dog();
 		ani.eat();
-		Printer pr =new Printer();
+		Printer pr = new Printer();
 		pr.print(56);
-		
 
 	}
 }
 
-    class Printer {
+	class Printer {
 	void print(String text) {
 		System.out.println("Printing text : " + text);
 
 	}
 
-    void print(int number) {
-			System.out.println("Printing number : "+number);
+	void print(int number) {
+		System.out.println("Printing number : " + number);
 
-		}
+	}
 
-		void print(double number) {
-		System.out.println("Printing decimal: "+number);	
-				
-			}
+	void print(double number) {
+		System.out.println("Printing decimal: " + number);
+
+	}
 }

@@ -1,37 +1,33 @@
 package switchcase;
 
 public class SwitchCase {
-	public static void main(String [] args) {
-	
-	 SwitchCase swex = new SwitchCase();
-	 swex.dayoftheweek("Wednesday");
-	 char grade = 'B';
-	 int a =10,b= 5;
-	 char operator = '+';
-	 
-	 
-	 switch (operator) {
-	 case '+':
-		 System.out.println("Result:" + (a + b));
-			break;
-		
-	case '-':
-		 System.out.println("Result:" + (a + b));
-			break;
-	 
-	case '*':
-	 System.out.println("Result:" + (a + b));
-		break;
-	
-	case '/':
-	 System.out.println("Result:" +(a/b));
-		break;
-	 }
-		
-	 }
-	
-	
+	public static void main(String[] args) {
 
+		SwitchCase swex = new SwitchCase();
+		swex.dayoftheweek("Wednesday");
+		char grade = 'B';
+		int a = 10, b = 5;
+		char operator = '+';
+
+		switch (operator) {
+		case '+':
+			System.out.println("Result:" + (a + b));
+			break;
+
+		case '-':
+			System.out.println("Result:" + (a + b));
+			break;
+
+		case '*':
+			System.out.println("Result:" + (a + b));
+			break;
+
+		case '/':
+			System.out.println("Result:" + (a / b));
+			break;
+		}
+
+	}
 
 	public void dayoftheweek(String dayoftheweek) {
 
@@ -68,7 +64,7 @@ public class SwitchCase {
 		default:
 			System.out.println("Supply me a day");
 		}
-		
+
 		switch (grade) {
 
 		case 'A': {
@@ -84,11 +80,11 @@ public class SwitchCase {
 			System.out.println("Well done");
 			break;
 		}
-		case 'A': {
+		case 'D': {
 			System.out.println("You Passed");
 			break;
 		}
-		case 'A': {
+		case 'F': {
 			System.out.println("Better try again");
 			break;
 
@@ -98,8 +94,4 @@ public class SwitchCase {
 		}
 	}
 
-	}
-	
-	
-
-	
+}
