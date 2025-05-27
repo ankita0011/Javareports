@@ -3,9 +3,9 @@ package switchcase;
 public class SwitchCase {
 	public static void main(String[] args) {
 
-		SwitchCase swex = new SwitchCase();
-		swex.dayoftheweek("Wednesday");
 		char grade = 'B';
+		SwitchCase swex = new SwitchCase();
+		swex.dayoftheweek("Wednesday",grade );
 		int a = 10, b = 5;
 		char operator = '+';
 
@@ -29,7 +29,8 @@ public class SwitchCase {
 
 	}
 
-	public void dayoftheweek(String dayoftheweek) {
+	public void dayoftheweek(String dayoftheweek,char grade) {
+	
 
 		switch (dayoftheweek) {
 

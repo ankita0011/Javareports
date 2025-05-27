@@ -26,7 +26,7 @@ public class MethodTypes01 {
 		mt.sayHello("Raman");
 
 	}
-    //Chat gpt eg
+//Chat gpt eg
 
 	void sayHello(String name) {
 		System.out.println("Hello," + name);

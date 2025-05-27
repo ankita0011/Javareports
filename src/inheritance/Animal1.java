@@ -11,12 +11,6 @@ public class Animal1 {
 			System.out.println("this Dog barks");
 		}
 
-		public static void main(String[] args) {
-			Dog d = new Dog();
-			d.eat();
-			d.bark();
-
-		}
 
 	}
 }
