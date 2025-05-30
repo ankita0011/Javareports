@@ -54,8 +54,7 @@ public class SoftwareTestExample {
 		driver.findElement(By.xpath("//input[@id='phone']")).sendKeys("88888888");
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Aman123@");
 
-		WebElement secureAreaHeading = driver
-				.findElement(By.xpath("/html/body/app-root/div/app-register/div/div/div/h3"));
+		WebElement secureAreaHeading = driver.findElement(By.xpath("/html/body/app-root/div/app-register/div/div/div/h3"));
 		String headingText = secureAreaHeading.getText();
 
 		Assert.assertEquals(headingText.equals("Customer Registration"), true);
